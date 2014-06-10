@@ -25,7 +25,7 @@ Quick start
 
    ::
 
-      pip install git+https://github.com/yetty/django-embed-video.git
+      pip install git+https://github.com/johann2357/django-embed-video.git
 
 
 #. Add ``embed_video`` to ``INSTALLED_APPS`` in your Django settings.
