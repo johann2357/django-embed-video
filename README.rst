@@ -25,13 +25,6 @@ Quick start
 
    ::
 
-      pip install django-embed-video
-
-
-   or from sources
-
-   ::
-
       pip install git+https://github.com/yetty/django-embed-video.git
 
 
@@ -74,6 +67,10 @@ Quick start
 
       class Item(models.Model):
           video = EmbedVideoField()  # same like models.URLField()
+
+#. If you want to use Froogaloop2 for Vimeo, create a froogaloop2.min.js
+   file that can be called from /static/js/froogaloop2.min.js and a
+   /static/js/events_vimeo.js
 
 
 .. vim: set tw=80:

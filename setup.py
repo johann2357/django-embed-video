@@ -19,7 +19,7 @@ setup(
     version=embed_video.get_version(),
     author='Juda Kaleta',
     author_email='juda.kaleta@gmail.com',
-    url='https://github.com/yetty/django-embed-video',
+    url='https://github.com/johann2357/django-embed-video',
     description=embed_video.__doc__.strip(),
     long_description='\n\n'.join([README, CHANGES]),
     classifiers=[
@@ -30,7 +30,7 @@ setup(
         'Programming Language :: Python :: 2.7',
         'Topic :: Internet :: WWW/HTTP',
     ],
-    keywords=['youtube', 'vimeo', 'video', 'soundcloud'],
+    keywords=['vimeo', 'video', 'soundcloud'],
     install_requires=['requests >= 1.2.3', 'Django >= 1.5'],
     test_suite='nose.collector',
 )
