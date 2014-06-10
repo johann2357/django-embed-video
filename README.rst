@@ -69,8 +69,11 @@ Quick start
           video = EmbedVideoField()  # same like models.URLField()
 
 #. If you want to use Froogaloop2 for Vimeo, create a froogaloop2.min.js
-   file that can be called from /static/js/froogaloop2.min.js and a
-   /static/js/events_vimeo.js
+   file and a events_vimeo.js that can be called from:
+
+   ::
+      /static/js/froogaloop2.min.js
+      /static/js/events_vimeo.js
 
 
 .. vim: set tw=80:
